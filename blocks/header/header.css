@@ -5,4 +5,18 @@
     display: flex;
     justify-content: space-between;
     align-items: end;
+    padding: 0 48px;
+}
+
+@media (max-width: 864px) {
+    .header {
+        padding: 0 calc((0.25 * 100vw) - 168px);
+        
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 0 24px;
+    }
 }
