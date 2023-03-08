@@ -1,7 +1,6 @@
 .header {
-    margin: auto;
+    margin: 0 auto;
     max-width: 1184px;
-    min-height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: end;
@@ -18,5 +17,11 @@
 @media (max-width: 768px) {
     .header {
         padding: 0 24px;
+    }
+}
+
+@media (max-width: 320px) {
+    .header {
+        padding: 0 16px;
     }
 }

@@ -1,4 +1,6 @@
 .lead__subtitle {
+    margin-block-start: 0;
+    margin-block-end: 0;
     font-weight: 400;
     font-size: 30px;
     line-height: 36px;
@@ -21,5 +23,6 @@
         font-size: 16px;
         line-height: 20px;
         max-width: 288px;
+        margin-top: 16px;
     }
 }
