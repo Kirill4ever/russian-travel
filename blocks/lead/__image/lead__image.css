@@ -1,5 +1,33 @@
 .lead__image {
     margin: 64px 0 0 0;
-    width: 984px;
-    height: 615px;
+    padding: 0 48px;
+    width: 100vw ;
+    max-width: 1080px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1024px) {
+    .lead__image {
+        margin-top: 56px;
+    }
+}
+
+@media (max-width: 864px) {
+    .lead__image {
+        padding: 0 calc((0.5 * 100vw) - 384px);
+
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .lead__image {
+        padding: 0;
+    }
+}
+
+@media (max-width: 320px) {
+    .lead__image {
+        margin-top: 40px;
+    }
 }
