@@ -1,0 +1,10 @@
+.cover {
+    display: flex;
+    margin: 0 48px;
+    width: 100vw;
+    height: calc(100vw / 1.6);
+    max-width: 1184px;
+    max-height: 740px;
+    background-image: url(../../images/cover-trains.jpg);
+    background-size: cover;
+}
