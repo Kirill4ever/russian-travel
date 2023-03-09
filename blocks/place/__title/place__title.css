@@ -20,3 +20,17 @@
        line-height: 46px;
     }
 }
+
+@media (max-width: 767px) {
+    .place__title {
+        font-size: calc((0.02 * 100vw) + 24.86px);
+        line-height: calc((0.02 * 100vw) + 27.14px);
+    }
+}
+
+@media (max-width: 320px) {
+    .place__title {
+        font-size: 32px;
+       line-height: 35px;
+    }
+}
