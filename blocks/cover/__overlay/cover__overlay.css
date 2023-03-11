@@ -4,5 +4,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 30%);
+    background-color: rgba(42, 44, 47, 30%);
+    color: #fff;
+    text-decoration: none;
+}
+
+.cover__overlay:hover {
+    background-color: rgba(42, 44, 47, 80%);
+
 }
