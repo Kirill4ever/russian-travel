@@ -5,7 +5,10 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 12px;
-    letter-spacing: 0.2em;
+    /* letter-spacing: 0.2em; 
+    Размер указан по макету скаченному из задания,
+    https://imgur.com/3LGegKU */
+    letter-spacing: 2px;
     color: #aaa;
     margin-bottom: 12px;
     /* Тут в Фигме расходятся цифры и отображение. Расстояние указано 12px до блока, 
